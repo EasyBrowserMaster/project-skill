@@ -28,6 +28,12 @@ https://github.com/EasyBrowserMaster/project-skill
 project-memory-skill
 ```
 
+安装后，在 Claude Code / Codex / Cursor 等 CLI 的对话框里说一句即可触发该 Skill：
+
+```
+用 project-memory-skill 为本项目建立长期记忆
+```
+
 ### 方式二：AI 对话框直接安装
 
 在你的 AI 编码工具（Cursor / Claude Code / Codex 等）的对话框中输入：
