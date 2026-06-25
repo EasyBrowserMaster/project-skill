@@ -14,7 +14,21 @@
 
 ## 快速使用
 
-### 方式一：AI 对话框直接安装（推荐）
+### 方式一：通过 cc-switch 配置仓库安装（推荐）
+
+在 cc-switch 的「Skills 管理 → 仓库管理」中添加本仓库地址：
+
+```
+https://github.com/EasyBrowserMaster/project-skill
+```
+
+然后搜索项目名称即可一键安装：
+
+```
+project-memory-skill
+```
+
+### 方式二：AI 对话框直接安装
 
 在你的 AI 编码工具（Cursor / Claude Code / Codex 等）的对话框中输入：
 
@@ -26,7 +40,7 @@ skill 位于仓库的 project-memory-skill/ 子目录
 
 AI 会自动完成下载、配置，并在后续涉及项目记忆的任务中自动调用该 Skill。
 
-### 方式二：手动安装
+### 方式三：手动安装
 
 先克隆本仓库，再把其中的 `project-memory-skill/` 目录复制到对应 AI 工具的 skills 目录下。
 
@@ -110,5 +124,5 @@ project-skill/
 
 ## 版本记录
 
-* 1.1.0：仓库更名为 `project-skill`，Skill 本体移入 `project-memory-skill/` 子目录，更新安装说明并增加 CLI 使用示例。
+* 1.1.0：仓库更名为 `project-skill`，Skill 本体移入 `project-memory-skill/` 子目录，更新安装说明、增加 CLI 使用示例和 cc-switch 配置仓库安装方式。
 * 1.0.0：整理为可导入 Skill 包结构，增加模板、示例和安装说明。
