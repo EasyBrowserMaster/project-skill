@@ -1,6 +1,6 @@
 # Project Memory Skill
 
-面向 Claude、Codex、Cursor、Gemini 等 AI Agent 的项目长期记忆 Skill。
+面向 Claude、Codex、Cursor、Gemini 等 AI Agent 的跨会话跨CLI项目长期记忆 Skill。
 
 本仓库的 `project-memory-skill/` 目录即 Skill 本体，将该目录放入 AI 工具的 skills 目录即可使用。
 
